@@ -203,6 +203,15 @@ GET_OBJ_MAP = {
         'delete': False,
         'create_json': False,
     },
+    'action_groups': {
+        'single': 'Group',
+        'multi': 'GroupList',
+        'all': 'GroupList',
+        'search': ['id', 'name'],
+        'manual': True,
+        'delete': True,
+        'create_json': True,
+    },
     'group': {
         'single': 'Group',
         'multi': 'GroupList',
